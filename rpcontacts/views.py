@@ -62,23 +62,6 @@ class Window(QMainWindow):
         layout.addWidget(self.clearAllButton)
         self.layout.addLayout(layout)
         
-        # Create search bar
-        # search_field = QLineEdit()
-        # layout.addWidget(search_field)
-        #self.search_field = QLineEdit(self.centralWidget)
-        #search_field.setGeometry(10, 10, 479, 22)
-        
-        
-        
-        
-        
-        
-        
-    
-        
-        
-    
-         
     def openAddDialog(self):
         """Open the Add Contact dialog."""
         dialog = AddDialog(self)
